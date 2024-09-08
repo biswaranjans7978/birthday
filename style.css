@@ -102,7 +102,28 @@ body{
         margin-left: 22px;
     }
     
-    
+    .naming-card{
+        height: 300px;
+        width: 300px;
+    }
+
+    .cover-outer img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .text{
+        height: 300px;
+        width: 300px;
+    }
+    .text p{
+        font-size: 1em;
+    color: rgb(2, 99, 62);
+    list-style: 1.2;
+    font-style: italic;
+    text-align: center;
+    margin: 5px auto 0 auto;
+    }
     
     
     .naming-card:hover{
@@ -114,7 +135,7 @@ body{
             transform: perspective(800px) rotateX(-360deg);
             box-shadow: 7px 0 5px 0 rgba(0,0,0,0.3),inset 2px 0px 15px 0px rgba(0,0,0,0.1) ;
             position: absolute;
-            margin: 400px 0px 0px -10px;
+            margin: 300px 0px 0px -10px;
         }
     }
     
