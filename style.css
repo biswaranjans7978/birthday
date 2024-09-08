@@ -99,5 +99,23 @@ body{
     body{
         height: 100px ;
         padding: 10px;
+        margin-left: 22px;
     }
+    
+    
+    
+    
+    .naming-card:hover{
+        .cover-outer{
+            transform: perspective(800px) rotateX(-170deg);
+            
+        }
+        .cover-inner{
+            transform: perspective(800px) rotateX(-360deg);
+            box-shadow: 7px 0 5px 0 rgba(0,0,0,0.3),inset 2px 0px 15px 0px rgba(0,0,0,0.1) ;
+            position: absolute;
+            margin: 400px 0px 0px -10px;
+        }
+    }
+    
 }
